@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" styleClass="pane" stylesheets="@../uiImg/Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.BallController">
+   <children>
+      <MenuBar fx:id="menuOptions" prefHeight="27.0" prefWidth="600.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <Menu mnemonicParsing="false" text="Load game">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#levelZero" text="Level 0" />
+                        <MenuItem mnemonicParsing="false" onAction="#levelOne" text="Level 1" />
+                        <MenuItem mnemonicParsing="false" onAction="#levelTwo" text="Level 2" />
+                        <MenuItem mnemonicParsing="false" onAction="#savedGame" text="Saved Game" />
+                    </items>
+                  </Menu>
+                  <MenuItem mnemonicParsing="false" text="Save game" />
+                  <MenuItem mnemonicParsing="false" text="Exit game" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="View">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Scores" />
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label fx:id="bounceCounter" text="BOUNCES: 0 " textFill="#00d0ff">
+         <font>
+            <Font name="Marker Felt Thin" size="50.0" />
+         </font></Label>
+      <Label fx:id="levelLabel" />
+      <Pane fx:id="gameBackGround" prefHeight="600.0" prefWidth="600.0" VBox.vgrow="NEVER" />
+   </children>
+</VBox>

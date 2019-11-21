@@ -1,0 +1,17 @@
+#Level
+2
+#radius posX posY wait direction bounces stopped
+20 50 90 10 LEFT 0 false
+20 120 400 10 RIGHT 0 false
+30 350 230 10 UP 0 false
+60 700 10 10 DOWN 0 false
+25 600 340 10 UP 0 false
+30 800 720 10 DOWN 0 false
+10 1200 200 10 RIGHT 0 false
+20 80 290 10 LEFT 0 false
+20 0 480 10 RIGHT 0 false
+30 320 540 10 UP 0 false
+120 90 600 10 DOWN 0 false
+25 600 543 10 UP 0 false
+30 1100 720 10 DOWN 0 false
+10 700 700 10 RIGHT 0 false

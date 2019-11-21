@@ -1,0 +1,3 @@
+#Level
+0
+#radius posX posY wait direction bounces stopped
